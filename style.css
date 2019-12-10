@@ -1,14 +1,16 @@
+.ip {
+	background-color: black;
+	color: white;
+}
 .body {
 	background-color: black;
 	color: white;
 }
 .col {
 	color: #FFCCCC;
-}
-.col1 {
-	color: #FFCCCC;
 	font-size: 18px;
 }
+
 .tri {
 	display: inline-block;
 	margin-left:50px;
@@ -25,9 +27,13 @@
 	float: right;
 	background-color: #666666;	
 }
-.cl1 td:hover {
-	background-color: red;
-	color: blue;
+.tip {
+	height: 50px;
+	padding-top:8px;
+	padding-bottom:30px;
+	font-size: 25px;
+	border: 2px dashed white;
+	margin-top: -1,5px;
 }
 .form {
 	display: inline-block;
@@ -42,6 +48,15 @@
 	color: white;
 	border: 1px solid white;
 	height: 68px;
+	font-family: Segoe Script;
+	font-size: 20px;
+}
+.caf1 {
+	display: inline-block;
+	width: 1129px;
+	color: white;
+	border: 1px solid white;
+	height: 71px;
 	font-family: Segoe Script;
 	font-size: 20px;
 }
