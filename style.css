@@ -92,3 +92,27 @@ font-family:Segoe Script;
 	font-family: Segoe Script;
 	font-size: 20px;
 }
+.pul {
+	display: inline-block;
+	width: 600px;
+	height: 270px;
+	border: 3px solid grey;
+	font-family: Segoe Script;
+	font-size: 20px;
+	margin-top: 100px;
+	float: left;
+	background-color: black;
+	margin-left: 375px;
+}
+.caf3 {
+	display: inline-block;
+	width: 1146px;
+	color: white;
+	border: 1px solid white;
+	height: 71px;
+	font-family: Segoe Script;
+	font-size: 20px;
+}
+.con {
+	font-size: 25px;
+}
