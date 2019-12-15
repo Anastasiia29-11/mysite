@@ -1,24 +1,19 @@
-<?php
+<?php 
+  $stolik = $_POST['stolik'];
 
-  $stolik = filter_var(trim($_POST['stolik']),
+ 
 
-  FILTER_SANITIZE_STRING);
+  $time = $_POST['time'];
 
-  $time = filter_var(trim($_POST['time']),
+ 
+    $date =  date("Y-m-d");
 
-  FILTER_SANITIZE_STRING);
-    $date = filter_var(trim($_POST['date']),
+  $email = $_POST['email'];
 
-  FILTER_SANITIZE_STRING);
-
-  $email = $_COOKIE['email'];
-
-  $login = $_COOKIE['login'];
+  $login = $_POST['login'];
 
 
-
-
-  $mysql = new mysqli('localhost','root','','users');
+$mysql =  mysqli_connect('localhost','root','','users');
 
  
 
