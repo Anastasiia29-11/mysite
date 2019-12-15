@@ -40,12 +40,23 @@ font-family:Segoe Script;
 	border: 2px dashed white;
 	margin-top: -1,5px;
 }
+.vip {
+	height: 50px;
+	padding-top:8px;
+	padding-bottom:30px;
+	font-size: 25px;
+	border: 2px dashed white;
+	margin-top: -1,5px;
+	background-color: black;
+	color: white;
+}
 .form {
 	display: inline-block;
 	width: 200px;
 	background-color: #666666;
 	border: 1px solid white;
 	float: right;
+	color: white;
 }
 .caf {
 	display: inline-block;
@@ -113,6 +124,37 @@ font-family:Segoe Script;
 	font-family: Segoe Script;
 	font-size: 20px;
 }
+.caf4 {
+	display: inline-block;
+	width: 1129px;
+	color: white;
+	border: 1px solid white;
+	height: 71px;
+	font-family: Segoe Script;
+	font-size: 20px;
+	background-color: black;
+}
 .con {
 	font-size: 25px;
+}
+.br {
+	display: inline-block;
+	float: left;
+	width: 530px;
+	height: 400px;
+	background-color: black;
+	margin-top: 80px;
+	margin-left: 275px;
+	border: 3px solid grey;
+}
+
+.doh {
+	display: inline-block;
+	background-color: black;
+	color: white;
+	width: 300px;
+	height: 400px;
+	margin-left: 0px;
+	margin-top: 80px;
+	border: 3px solid grey;
 }
